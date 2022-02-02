@@ -34,8 +34,6 @@ namespace Respec.Patches
                 PlayerPrefs.SetInt("UnlockedCardCount", 0);
                 PlayerPrefs.SetInt("Development", 0);
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-
-
             }
             catch (Exception e) { throw e; }
             return false;
