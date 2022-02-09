@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MelonLoader;
+using BepInEx;
 
 namespace Respec
 {
-    public class Respec : MelonMod
-    {
-        public const string modVersion = "1.0.0";
-        public const string modName = "Respec";
-    }
+    [BepInPlugin("Jdewi.Respec", "Respec", "1.0.0")]
+    public class Respec : BaseUnityPlugin { }
 }
